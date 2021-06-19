@@ -1,10 +1,99 @@
-header {
-    text-align:right;
-}
-a {
+* {
     text-decoration: none;
 }
-.logo {
-    height: 40%;
-    text-align: center;    
+
+
+body {
+    margin:0px;
+    padding:0px;    
 }
+
+/* NAV CSS START */
+
+nav {
+    align-items: center;
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 12px;
+}
+nav a {
+    margin-top:10px;
+    font-size:14px;
+    margin-right: 20px;
+}
+nav a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+nav img {
+    margin-right: 20px;
+    height: 18px;
+    cursor: pointer;
+    
+}
+
+nav img:hover {
+    opacity: 0.8;
+    height: 20px;
+    margin-left: -2px;
+}
+
+
+nav button {
+    border: 1px solid #1a73e8;
+    font-weight: bold;
+    outline: none;
+    color: #fff;
+    padding: 7px 12px;
+    background: #4285f4;
+    cursor: pointer;
+}
+
+nav button:hover {
+    opacity: 0.80;
+}
+
+/* NAV CSS END */
+
+
+/* GOOGLE START */ 
+
+.section-go {
+    text-align: center;
+    flex: 1;
+
+}
+.section-go .logo {
+    display: block;
+    margin: 210px auto 0;
+}
+
+/* GOOGLE END */ 
+
+/* SEARCH BOX START */
+
+.search-box {
+    width: 550px;
+    margin: 0px auto;
+    text-align: center;
+
+}
+
+.search-box .search-input {
+    border-radius: 25px;
+    border: 1px solid;
+    
+}
+
+.search-box .search-icon {
+    width: 20px;
+    position: absolute;
+}
+
+.search-box .search-voice {
+    width: 14px;
+}
+
+
+/* SEARCH BOX END */
